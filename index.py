@@ -41,10 +41,7 @@ colors = {
 external_stylesheet = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 # Reading csv file with tickers
-nsdq = pd.read_csv('/Users/lyanalexandr/'
-                   'anaconda3/envs/dash_project_2/'
-                   'Plotly-Dashboards-with-Dash/'
-                   'Data/nasdaqcompanylist.csv')
+nsdq = pd.read_csv('NASDAQcompanylist.csv')
 
 nsdq.set_index('Symbol', inplace=True)
 option = []
